@@ -1,0 +1,78 @@
+﻿body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    //background-color: #f0f0f0;
+    background-image: url("../Images/white_texture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    width: 100%;
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#footer {
+    margin-top: 30px;
+    width: 100%;
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: left;
+}
+
+.box {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+    opacity: 0.
+}
+
+input[type=text], input[type=password] {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.item-list {
+    overflow: visible;
+    border: none;
+    width: 150px;
+    margin-bottom: 10px;
+    
+}
+
+    .item-list:focus {
+        outline: none;
+    }
+
+    option {
+        border-bottom: 1px solid #ccc;
+        padding: 5px 15px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+input[type=text]:focus, input[type=password]:focus {
+        border: 3px solid #555;
+    }
+
